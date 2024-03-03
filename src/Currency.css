@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.currency{
+    background-image: url('https://www.unite.ai/wp-content/uploads/2022/09/ai-crypto-bots.png');
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+}
+
+.BOX{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(216, 210, 210, 0.75);
+    border-radius: 20px;
+    box-shadow: 5px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+   
+    background-image: url(./);
+   
+}
+h1{
+    font-weight: 600;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: rgb(72, 40, 255);
+    text-align: center;
+    border-bottom: 2px dashed #19a2c4;
+    border-top: 2px dashed #19a2c4;
+}
+.input-container{
+margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+input,
+select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 14px;
+    font-size: 15px;
+    outline: none;
+}
+input :focus,
+select :focus{
+   border-color: #19a2c4;
+}
+.result{
+    padding: 10px;
+    margin: 20px 0px;
+    border: 2px dashed blueviolet;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.footer{
+    
+        padding: 10px;
+        margin: 20px 0px;
+       
+        border-radius: 14px;
+        font-size: 15px;
+        font-weight: 600;
+        text-align: center;
+        
+    
+}
+a{
+    text-decoration: none;
+}
